@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------
 Shirish Amatya'
 10/01/2020
-This Program iterates the Fibonacci Sequence for the first 100 numbers
+This Program iterates the Fibonacci Sequence for the first 25 numbers
 using a recursive function
 ---------------------------------------------------------------------*/
 package main
@@ -19,7 +19,7 @@ func FibonacciRec(num int) int {
 }
 
 func main() {
-	for i := 0; i <= 100; i++ {
+	for i := 0; i <= 25; i++ {
 		fmt.Print(strconv.Itoa(FibonacciRec(i)) + " ")
 	}
 	fmt.Println("")
